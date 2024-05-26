@@ -27,4 +27,4 @@ print(f"{user_name}, you scored {score} out of {len(questions)}.")
 # Save the user's name and result to the CSV file
 with open('quiz_results.csv', 'a', newline='') as csvfile:
     writer = csv.writer(csvfile)
-    writer.writerow([user_name, score, len(quest
+    writer.writerow([user_name, score, len(questions)])
